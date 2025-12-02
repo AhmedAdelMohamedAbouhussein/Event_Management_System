@@ -67,7 +67,8 @@ public class MAIN22 {
     }
 
     public void connectToDatabase() {
-        String url = "jdbc:sqlserver://localhost\\MSSQLSERVERR:1433;DatabaseName=12th_final;integratedSecurity=true;encrypt=true;trustServerCertificate=true;";
+        String url = "jdbc:sqlserver://LENOVO_LOQ\\MSSQLSERVERR:1433;databaseName=12th_final;integratedSecurity=true;encrypt=true;trustServerCertificate=true;";
+
         try {
 
             connection = DriverManager.getConnection(url);
